@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="rg" cx="0.5" cy="0.5" r="0.8">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </radialGradient>
+    <pattern id="ln" width="60" height="60" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="60" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="500" fill="url(#rg)"/>
+  <rect width="1600" height="500" fill="url(#ln)"/>
+  <circle cx="180" cy="100" r="220" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+  <circle cx="180" cy="100" r="140" fill="none" stroke="#ffffff" stroke-opacity="0.10"/>
+  <circle cx="1420" cy="420" r="260" fill="none" stroke="#ffffff" stroke-opacity="0.06"/>
+</svg>

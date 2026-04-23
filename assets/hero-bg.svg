@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#f6f6f4"/>
+      <stop offset="100%" stop-color="#eaeae6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.75" cy="0.1" r="0.7">
+      <stop offset="0%" stop-color="#0a0a0a" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#0a0a0a" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.04 0"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bgGrad)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <circle cx="1250" cy="180" r="320" fill="none" stroke="#0a0a0a" stroke-opacity="0.08" stroke-width="1"/>
+  <circle cx="1250" cy="180" r="240" fill="none" stroke="#0a0a0a" stroke-opacity="0.10" stroke-width="1"/>
+  <circle cx="1250" cy="180" r="160" fill="none" stroke="#0a0a0a" stroke-opacity="0.12" stroke-width="1"/>
+  <circle cx="1250" cy="180" r="80" fill="#0a0a0a" fill-opacity="0.04"/>
+  <line x1="0" y1="720" x2="1600" y2="720" stroke="#0a0a0a" stroke-opacity="0.08" stroke-width="1"/>
+  <line x1="0" y1="760" x2="1600" y2="760" stroke="#0a0a0a" stroke-opacity="0.04" stroke-width="1"/>
+  <text x="100" y="840" font-family="Times New Roman, serif" font-size="14" fill="#0a0a0a" fill-opacity="0.35" letter-spacing="4">V / AIBOU — V / SANBO — V / ENTER — V / LEARN</text>
+  <text x="1480" y="70" font-family="Times New Roman, serif" font-size="13" fill="#0a0a0a" fill-opacity="0.35" letter-spacing="4" text-anchor="end">EST. 2026 · SENDAI</text>
+  <rect width="1600" height="900" filter="url(#noise)"/>
+</svg>
